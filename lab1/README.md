@@ -55,6 +55,8 @@
    pip install coverage
 
 ### Отчёт о покрытии может быть выведен в консоль командами:
+```bash
+python main.py
 python -m unittest discover -s tests
 coverage run -m unittest discover -s tests
 coverage report -m
