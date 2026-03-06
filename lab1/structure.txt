@@ -1,1 +1,17 @@
-
+garden_project/
+│
+├── garden/                 # Основной пакет с логикой системы
+│   ├── __init__.py         # Маркер пакета Python
+│   ├── entities.py         # Сущности (Plant, Tool, Soil, и др.)
+│   ├── garden_plot.py      # Класс-фасад для управления участком
+│   ├── storage.py          # Логика сохранения (Pickle)
+│   └── exceptions.py       # Кастомные исключения (GardenLogicError)
+│
+├── tests/                  # Пакет с Unit-тестами
+│   ├── __init__.py
+│   ├── test_entities.py    # Тесты для базовых классов
+│   ├── test_garden_plot.py # Тесты взаимодействия компонентов
+│   └── test_storage.py     # Тесты сериализации данных
+│
+├── main.py                 # Точка входа и CLI-интерфейс
+└── README.md               # Документация проекта (Markdown)
