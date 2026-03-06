@@ -1,4 +1,4 @@
-garden_project/
+lab1/
 │
 ├── garden/                 # Основной пакет с логикой системы
 │   ├── __init__.py         # Маркер пакета Python
