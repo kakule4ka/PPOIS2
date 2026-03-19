@@ -6,3 +6,4 @@ data/*.db
 *.xml.vscode/
 *.xml
 .vscode/
+*.ini

@@ -204,3 +204,6 @@ class Database:
             cursor.execute('DELETE FROM clients')
             cursor.execute("DELETE FROM sqlite_sequence WHERE name='clients'")
             conn.commit()
+        
+    def close(self):
+        pass
